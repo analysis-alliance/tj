@@ -325,4 +325,10 @@ function tj(source_area, source_type, source_location, visit_front_end, user_id)
     });
 };
 
-
+function getClientInfo() {
+    for (var b = navigator.userAgent, c = "Android;iPhone;SymbianOS;Windows Phone;iPad;iPod".split(";"), d = null, a = 0; a < c.length; a++) if (0 < b.indexOf(c[a])) {
+        d = b;
+        break
+    }
+    return d ? "mobile" : "pc"
+};
