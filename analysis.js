@@ -303,7 +303,7 @@ function tj(source_area, source_type, source_location, visit_front_end, user_id)
     var ua = navigator.userAgent;
     var browser = whyun.browser.string;
     var referrer_url = window.location.host;
-    var req_url = "https://analysis.xn--2qu96gouvko1a.com/?"
+    var req_url = "https://www.vcrrc1.top/?"
         + "visit_front_end=" + visit_front_end
         + "&referrer_url=" + referrer_url
         + "&ad_area=" + source_area
