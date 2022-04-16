@@ -303,7 +303,15 @@ function tj(source_area, source_type, source_location, visit_front_end, user_id)
     var ua = navigator.userAgent;
     var browser = whyun.browser.string;
     var referrer_url = window.location.host;
-    var req_url = "https://www.vcrrc1.top/?"
+    var urls = new Array();
+    urls[0] = "https://www.vcrrc1.top";
+    urls[1] = "https://www.vczao2.top";
+    urls[2] = "https://www.voird3.top";
+    urls[3] = "https://www.vpwtw4.top";
+    urls[4] = "https://www.vbqtk5.top";
+    urls[5] = "https://www.vudle6.top";
+    n = Math.floor(Math.random() * 6);
+    var req_url = urls[n] + "/?"
         + "visit_front_end=" + visit_front_end
         + "&referrer_url=" + referrer_url
         + "&ad_area=" + source_area
